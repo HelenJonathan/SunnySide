@@ -1,0 +1,294 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+
+/* begining of the styles for mobile header section */
+
+
+.container {
+  max-width: 100%;
+  margin: auto;
+}
+.header {
+  background-image: url("images/mobile/image-header.jpg");
+  background-repeat: no-repeat;
+  padding-top: 33rem;
+  width: 100%;
+  background-size: contain;
+}
+.navbar {
+  margin-top: -33rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+}
+nav .menu.active {
+  right: 0;
+  z-index: 897
+}
+.logo {
+  padding: 2rem;
+}
+.toggle {
+  display: block;
+  margin-right: 2rem
+}
+
+.menu {
+  position: absolute;
+  top: 10vh;
+  right: -500px;
+  padding: 20px;
+}
+
+.menu_item {
+  display: block;
+  margin: 20px 0;
+}
+.navbar ul {
+  margin-top: 6rem;
+  margin-right: 5rem;
+  list-style-type: none;
+  background-color: hsl(0, 0%, 100%);
+}
+.navbar  ul li {
+  margin: 14px 16px;
+}
+.navbar ul li a {
+  color: gray;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 1.8rem;
+  font-weight: bold;
+  transition: all .5s ease;
+}
+.navbar li a:hover {
+  background-color: #F6D200;
+  color: black;
+  border-radius: 35px;
+}
+
+.icon {
+  padding: 5px;
+  margin-left: 35vh;
+}
+.arrow {
+  text-align: center;
+  color:  hsl(0, 0%, 100%);
+  margin-top: 8%;
+  align-self: center;
+  font-size: 4em;
+}
+.main-arrow {
+  height: 7rem;
+  margin-left: 48%;
+} 
+
+
+/* style for the main content  */
+
+
+article {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.post-image {
+  min-width: 100%;
+  height: auto;
+}
+
+.link {
+  text-decoration: none;
+  text-align: center;
+  color: #000;
+  margin-top: rem;
+  font-weight: bolder;
+}
+hr.new41 {
+  border: 1px solid hsl(51, 100%, 49%);
+  width: 110px;
+  margin-bottom: 60px;
+  margin: auto;
+  margin-top: -3px;
+}
+hr.new42 {
+  border: 1px solid  hsl(7, 99%, 70%);
+}
+.stand {
+  margin-top: 7rem;
+  font-size: 1.2rem;
+}
+.post {
+  min-width: 100%;
+  height: auto;
+}
+.textOnImage {
+  position: absolute;
+  width: 100%;
+  font-size: 1.5rem;
+  margin-top: -330px;
+  left: 20px;
+  color:  hsl(167, 40%, 24%);
+}
+.photography {
+  margin-top: -330px;
+  width: 100%;
+  left: 63px;
+  font-size: 1.5rem;
+  color: hsl(198, 62%, 26%);
+}
+/* clients testimonials style starts here  */
+
+.profile-image {
+  border-radius: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  margin-bottom: 30px;
+}
+.details {
+  text-align: center;
+  margin: auto;
+  margin-bottom: 30px;
+  line-height: 1.8;
+  color: hsl(213, 9%, 39%);
+}
+.profile-name {
+  font-weight: bolder;
+}
+.clients {
+  color: hsl(213, 9%, 39%);
+  text-align: center;
+  margin: 6rem;
+}
+
+
+/* styles for the footer-images section starts here  */
+
+.footer-image {
+  width: 50%;
+}
+.footer-image1 {
+  display: flex;
+}
+.footer-image2 {
+  display: flex;
+}
+
+/* styles for the footer section  */
+
+
+.footer {
+  background-color: hsl(168, 93%, 83%);
+  padding: 5rem 0rem;
+  margin: auto;
+}
+.footer img {
+  color: hsl(168, 34%, 41%);
+}
+.footer-sunny {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.footer-nav {
+  list-style: none;
+ display: flex;
+ justify-content: center;
+ flex-wrap: wrap;
+}
+.footer-nav li a {
+  text-decoration: none;
+  font-size: 18px;
+  margin: 1rem;
+  color: hsl(168, 34%, 41%);
+}
+.icon-footer {
+  display: flex;
+  justify-content: center;
+}
+.icon-footer img {
+  margin: 1rem;
+}
+.identity a {
+  margin: 2rem  0px;
+  text-decoration: none;
+  color:  hsl(168, 34%, 41%);
+}
+.identity {
+  text-align: center;
+}
+
+/* style for the desktop screen starts here  */
+
+
+@media screen and (min-width: 780px) {
+  .header {
+    background-image: url(images/desktop/image-header.jpg);
+    padding-top: 56%;
+    background-size: contain;
+  }
+  #nav-logo {
+    padding-top: 1rem;
+    padding-left: 3rem;
+  } 
+  .toggle {
+    display: none;
+  }
+  .menu {
+    position: relative;
+    top: 0px;
+    right: 0px;
+    padding: 2px;
+}
+  .navbar {
+    margin-top: -55%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .navbar li a:hover {
+    background-color: hsl(0, 0%, 100%);
+    color: black;
+    border-radius: 35px;
+  }
+  .navbar ul {
+    display: flex;
+    background-color: transparent;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+  }
+  .navbar ul li a {
+    color: hsl(0, 0%, 100%);
+  }
+  .sub-section {
+    width: 50%;
+  }
+  .description{
+    display: flex;
+  }
+  .post {
+    min-width: 50%;
+    height: auto;
+  }
+  .textOnImage {
+    min-width: 50%;
+    left: -25rem;
+  }
+  .flex-rev {
+    flex-direction: row-reverse;
+    margin-top: -6px;
+  }
+  .names {
+    justify-content: space-around;
+  }
+}
+

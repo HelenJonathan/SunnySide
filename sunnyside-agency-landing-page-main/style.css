@@ -15,9 +15,10 @@ body {
 .header {
   background-image: url("images/mobile/image-header.jpg");
   background-repeat: no-repeat;
-  padding-top: 33rem;
+  padding-top: 35rem;
   width: 100%;
-  background-size: contain;
+  background-size: cover;
+  background-position: bottom;
 }
 .navbar {
   margin-top: -33rem;
@@ -80,7 +81,7 @@ nav .menu.active {
 .arrow {
   text-align: center;
   color:  hsl(0, 0%, 100%);
-  margin-top: 8%;
+  margin-top: 3%;
   align-self: center;
   font-size: 4em;
 }
@@ -234,7 +235,7 @@ hr.new42 {
   .header {
     background-image: url(images/desktop/image-header.jpg);
     padding-top: 56%;
-    background-size: contain;
+    background-size: cover;
   }
   #nav-logo {
     padding-top: 1rem;
